@@ -18,6 +18,7 @@ const FriendList = ({ friends }) => {
   );
 };
 
+// eslint-disable-next-line react/no-typos
 FriendList.PropTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.exact({
